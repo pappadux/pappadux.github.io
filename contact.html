@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semester Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu|Lora" rel="stylesheet"><!-- Linking to google fonts -->
+    <link rel="stylesheet" href="styles/style.css"> <!-- Linking to the external CSS file -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <!-- Navigation links to other pages -->
+                <li><a href="contact.html"><button class="navButton">Contact</button></a></li>
+                <li><a href="about.html"><button class="navButton">About</button></a></li> 
+                <li><a href="index.html"><button class="navButton">Home</button></a></li>
+                <div class="headercontent">
+                    <h1>IT 3203 Semester Project <img src="images/KSU Headder logo.png" alt="KSUBannerLogo" width="500" height="100"> Spring 2024 </h1>
+                </div> 
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Content specific to each page will go here -->
+        <!-- This section like a good bit of my work required a good bit of my time at W3S to be sure I fully understood what I was doing. -->
+        <div class="formcontainer">
+            <div class="form">
+                <form action="/action_page.php"> <!-- This will be addressed when I am learning more about node.js-->
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="First Name">
+                    
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+                    
+                    <label for="pnumber">Phone Number</label>
+                    <input type="text" id="pnumber" name="phonenumber" placeholder="Phone Number">
+                    
+                    <label for="numbertype">Number Type</label>
+                    <select id="numbertype" name="numbertype">
+                        <option value="home">Home</option>
+                        <option value="cell">Cell</option>
+                        <option value="work">Work</option>
+                    </select>
+                    
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Email">
+                    
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments" placeholder="Tell us what's on your mind" style="height:140px"></textarea>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>

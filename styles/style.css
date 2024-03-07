@@ -1,0 +1,110 @@
+/* styling for buttons */
+.navButton, .gamebutton {
+    background-color: #ffd724; /* set background color */
+    border-radius: 12px; /* round the corners */
+    color: black; /* text color */
+    padding: 15px 32px; /* padding inside the button */
+    text-align: center; /* center text horizontally */
+    text-decoration: none; /* remove underline from links */
+    display: inline-block; /* display as block element but remain inline */
+    font-family: "Lora", serif; /* font family */
+    font-size: 16px; /* font size */
+    margin: 4px 2px; /* margin around the button */
+    cursor: pointer; /* cursor style */
+}
+
+/* styling for button hover effect */
+.navButton:hover, .gamebutton:hover {
+    box-shadow: 0 16px 22px #666; /* add shadow on hover */
+}
+
+/* styling for unordered list and list items */
+ul, li {
+    display: inline; /* display horizontally */
+}
+
+/* styling for the main content */
+main {
+    position: relative; /* relative positioning */
+    text-align: center; /* center text horizontally */
+}
+
+/* styling for the body */
+body {
+    font-family: "Lora", serif; /* font family */
+    font-size: 22px; /* font size */
+    color: #000000; /* text color */
+    background-color: bisque; /* background color */
+}
+
+/* styling for navigation links */
+nav ul li a {
+    color: #000000; /* text color */
+}
+
+/* styling for heading 1 */
+h1 {
+    font-family: "Ubuntu", sans-serif; /* font family */
+    font-size: 46px; /* font size */
+    color: #000000; /* text color */
+    display: inline-block; /* display as block element */
+    text-align: center; /* center text horizontally */
+    margin-bottom: 10px; /* bottom margin */
+}
+
+/* styling for header content */
+.headercontent {
+    text-align: center; /* center align the content */
+}
+
+/* styling for hidden images */
+#imagedog, #imagelie, #imagetrue {
+    display: none; /* hide the images initially */
+    width: 320px; /* image width */
+    height: 320px; /* image height */
+    margin-top: 20px; /* top margin */
+    margin-right: 20px; /* right margin */
+}
+
+/* styling for visible image */
+#imagemystery {
+    display: inline-block; /* display the image */
+    width: 320px; /* image width */
+    height: 320px; /* image height */
+    margin-top: 20px; /* top margin */
+    margin-right: 20px; /* right margin */
+}
+
+/* styling for input fields, select, and textarea */
+input[type=text], select, textarea {
+    width: 100%; /* full width */
+    padding: 12px; /* padding */
+    border-color: #000; /* border color */
+    border-radius: 12px; /* border radius */
+    box-sizing: border-box; /* include padding and border in width */
+    margin-top: 6px; /* top margin */
+    margin-bottom: 16px; /* bottom margin */
+    color: #000; /* text color */
+}
+
+/* styling for focused input fields, select, and textarea */
+input[type=text]:focus, select:focus, textarea:focus {
+    border-color: #000; /* border color on focus */
+}
+
+/* styling for submit button */
+input[type=submit] {
+    background-color: #ffd724; /* background color */
+    color: #000; /* text color */
+    padding: 15px 32px; /* padding */
+    border: #000; /* border color */
+    border-radius: 12px; /* border radius */
+    cursor: pointer; /* cursor style */
+    font-family: "Lora", serif; /* font family */
+    font-size: 16px; /* font size */
+}
+
+/* styling for submit button hover effect */
+input[type=submit]:hover {
+    box-shadow: 0 16px 22px #666; /* add shadow on hover */
+}
